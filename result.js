@@ -1,4 +1,4 @@
-var result= 37;
+var i;
 if(result<=100 && result>=80 ){
     console.log("A+");
 }
