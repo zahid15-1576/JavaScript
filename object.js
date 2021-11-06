@@ -24,6 +24,9 @@ var rasel={
     name:"Rasel Mia",
     age: 33,
     address: "Khulna",
-    job: "Job holder"
+    job: "Job holder",
+    welcomeMsg: function(){
+        console.log('i am fine');
+    }
 }
-console.log(rohim.ZipCode=1207, rakib.ZipCode=1349, Omi.ZipCode=1350, rasel.ZipCode=1);
+console.log(rohim, rakib, Omi, rasel);
