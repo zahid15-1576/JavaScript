@@ -26,4 +26,4 @@ var rasel={
     address: "Khulna",
     job: "Job holder"
 }
-console.log(rohim, rakib, Omi, rasel);
+console.log(rohim.ZipCode=1207, rakib.ZipCode=1349, Omi.ZipCode=1350, rasel.ZipCode=1);
