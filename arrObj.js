@@ -4,3 +4,7 @@ var arrOjb={
     class:[10, 11, 12, 11]
 }
 console.log(arrOjb.name[2]);
+rahin.welcome=function(){
+    console.log('Hello World');
+}
+    
