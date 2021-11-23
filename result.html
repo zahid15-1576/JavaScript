@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var result=prompt("Enter your result: ");
+        result=parseInt(result,10);
+
+        if(100>=result && 80<=result)
+            document.write("A+");
+        
+        else if(79>=result && 70<=result)
+            document.write("A");
+        else if(69>=result && 60<=result)
+            document.write("A-");
+        else if(59>=result && 50<=result)
+            document.write("B");
+        else if(49>=result && 40<=result)
+            document.write("C");
+        else if(39>=result && 33<=result)
+            document.write("D");
+        else if(32>=result && 0<=result)
+            document.write("Fail");
+
+        else
+        document.write("invalid input");
+        
+    </script>
+</body>
+</html>
