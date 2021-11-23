@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var number=Number(prompt("Enter your mark: "));
+        var result= number<=100 && number>=80 ? "A+" : number<=79 && number>=70 ? "A": number<=69 && number>=60 ? "A-" : number<=59 && number>=50 ? "B": number<=49 && number>=40 ? "C" : number<=39 && number>=33 ? "D" : number<=32 && number>=0 ? "fail" : "Invalid Input";
+
+        document.write( result);
+    </script>
+</body>
+</html>
