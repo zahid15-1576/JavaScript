@@ -1,0 +1,14 @@
+button{
+color: yellow;
+height: 100px;
+width: 100px;
+margin: 10px;
+background-color: gray;
+border: none;
+font-size: 25px;
+}
+
+.anim{
+ box-shadow: 0 15px 25px 0 green;
+ opacity: 0.5;
+}
